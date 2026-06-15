@@ -136,8 +136,8 @@ a {
 
 .teaser-video-wrap {
   margin: 0 auto;
-  max-width: 860px;
-  width: 92%;
+  max-width: 760px;
+  width: 84%;
 }
 
 .publication-video {
@@ -337,5 +337,9 @@ pre {
   .placeholder-frame {
     min-height: 220px;
     padding: 1.5rem;
+  }
+
+  .teaser-video-wrap {
+    width: 100%;
   }
 }
