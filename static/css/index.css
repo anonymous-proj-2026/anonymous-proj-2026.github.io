@@ -134,6 +134,33 @@ a {
   width: 100%;
 }
 
+.teaser-video-wrap {
+  margin: 0 auto;
+  max-width: 860px;
+  width: 92%;
+}
+
+.publication-video {
+  background: #ffffff;
+  border: 1px solid #e1e5ea;
+  border-radius: 8px;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  width: 100%;
+}
+
+.publication-video iframe {
+  border: 0;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
 .paper-figure figcaption {
   color: #52606d;
   font-size: 0.95rem;
